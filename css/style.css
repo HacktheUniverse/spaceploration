@@ -23,6 +23,63 @@ h1, h2 {
   text-align: center;
 }
 
+.header p, .guess, .planetWeight {
+  width: 75%;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 1.25em;
+}
+
+.planetWeight {
+  height: 1000px;
+}
+
+.guess input {
+  margin: 10px;
+  color: black;
+}
+
+.planetWeight img {
+  height: 250px;
+  margin-left: 50px;
+}
+
+.planet {
+  border-radius: 50%;
+  width: 100%;
+  padding-bottom:  100%;
+  background-color: blue;
+  margin: auto;
+  position: relative;
+  bottom: 85px;
+  z-index: -1;
+}
+
+.planet h3 {
+  padding-top: 50px;
+}
+
+.scale {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: auto;
+  border-radius: 5px;
+  padding-top: 1px;
+}
+
+.scale img {
+  width: 50%;
+  height: auto;
+  margin: 15px 0 0;
+}
+
+.spaceWeight {
+  background-color: white;
+  color: black;
+  margin: 10px;
+}
+
 p.small {
   font-size: 0.8em;
 }
@@ -64,4 +121,17 @@ a {
 .info .name {
   font-size: 2em;
   text-decoration: underline;
+}
+
+.newPlanet {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50px;
+  background-color: aqua;
+  border-radius: 50%;
+  text-align: center;
+  padding: 50px;
+  font-size: 1.4em;
+  color: black;
 }
