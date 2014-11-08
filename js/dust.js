@@ -15,7 +15,7 @@ $(document).ready(function() {
     if (e.which === 32 && star.gameOver === false) {
       console.log(star.diameter);
       $(".header").removeClass("topMargin");
-      loadColor(star.diameter);
+      checkStarType(star.diameter);
       star.drawMass();
       star.diameter += 3;
     }
@@ -24,7 +24,6 @@ $(document).ready(function() {
   $(document).on("keyup", function(e) {
     if (e.which === 32 && star.gameOver === false) {
       star.gameOver = true;
-      checkStarType(star.diameter);
       $(".info").removeClass("hidden");
     }
   });

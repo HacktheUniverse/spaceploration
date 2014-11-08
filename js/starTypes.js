@@ -37,54 +37,28 @@ function checkStarType(diameter) {
 	if (diameter <= 30) {
     $(".name").html(starTypes.brownDwarf.name);
 		$(".description").html(starTypes.brownDwarf.bio);
+		$( ".star" ).addClass( "brownDwarf" );
     console.log("Brown Dwarf");
 	}
 	else if (diameter > 30 && diameter <=100) {
 		$(".name").html(starTypes.lowMassStar.name);
 		$(".description").html(starTypes.lowMassStar.bio);
+		$( ".star" ).addClass( "lowMassStar" ).removeClass( "brownDwarf" );
     console.log("Low Mass Star");
 	}
 	else if (diameter > 100 && diameter <=200) {
 		$(".name").html(starTypes.iMMassStar.name);
 		$(".description").html(starTypes.iMMassStar.bio);
+		$( ".star" ).addClass( "iMMassStar" ).removeClass( "lowMassStar" );
 	}
 	else if (diameter > 200 && diameter <=350) {
 		$(".name").html(starTypes.highMassStar.name);
 		$(".description").html(starTypes.highMassStar.bio);
+		$( ".star" ).addClass( "highMassStar" ).removeClass( "iMMassStar" );
 	}
 	else {
 		$(".name").html(starTypes.vHighMassStar.name);
 		$(".description").html(starTypes.vHighMassStar.bio);
+		$( ".star" ).addClass( "vHighMassStar" ).removeClass( "highMassStar" );
 	}
 }
-
-
-
-
-function loadColor(diameter) {
-	if (diameter <= 150) {
-    $( ".star" ).addClass( "brownDwarf" );
-    console.log("Brown Dwarf");
-	}
-	else if (diameter > 150 && diameter <=300) {
-    //$(".star").toggleClass("lowMassStar", 10).toggleClass( "brownDwarf" , 10);
-    $( ".star" ).addClass( "lowMassStar" ).removeClass( "brownDwarf" );
-    console.log("Low Mass Star");
-	}
-	else if (diameter > 300 && diameter <=500) {
-    $( ".star" ).addClass( "iMMassStar" ).removeClass( "lowMassStar" );
-    console.log("iMMassStar");
-	}
-	else if (diameter > 500 && diameter <=700) {
-    $( ".star" ).addClass( "highMassStar" ).removeClass( "iMMassStar" );
-    console.log("highMassStar");
-	}
-	else if (diameter > 700) {
-    $( ".star" ).addClass( "vHighMassStar" ).removeClass( "highMassStar" );
-    console.log("vHighMassStar");
-	}
-
-}
-
-
-
