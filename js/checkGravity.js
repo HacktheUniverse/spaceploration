@@ -65,63 +65,64 @@ var gravityTypes = {
 var planetWeight = 0;
 
 function checkGravity(planetName, catWeight) {
-	if (planetName == "Mercury") {
+	if (planetName === "Mercury") {
 		planetWeight = gravityTypes.mercury.gravity * catWeight / 9.8;
 		$(".spaceWeight").html(planetWeight);
 		$(".description").html(gravityTypes.mercury.bio);
 	}
-	else if (planetName == "Venus") {
+	else if (planetName === "Venus") {
 		planetWeight = gravityTypes.venus.gravity * catWeight / 9.8;
 		$(".spaceWeight").html(planetWeight);
 		$(".description").html(gravityTypes.venus.bio);
 	}
-	else if (planetName == "Earth") {
+	else if (planetName === "Earth") {
 		planetWeight = gravityTypes.earth.gravity * catWeight / 9.8;
 		$(".spaceWeight").html(planetWeight);
 		$(".description").html(gravityTypes.earth.bio);
 	}
-	else if (planetName == "Earth's Moon") {
+	else if (planetName === "Earth's Moon") {
 		planetWeight = gravityTypes.moon.gravity * catWeight / 9.8;
 		$(".spaceWeight").html(planetWeight);
 		$(".description").html(gravityTypes.moon.bio);
 	}
-	else if (planetName == "Mars") {
+	else if (planetName === "Mars") {
 		planetWeight = gravityTypes.mars.gravity * catWeight / 9.8;
 		$(".spaceWeight").html(planetWeight);
 		$(".description").html(gravityTypes.mars.bio);
 	}
-	else if (planetName == "Jupiter") {
+	else if (planetName === "Jupiter") {
 		planetWeight = gravityTypes.jupiter.gravity * catWeight / 9.8;
 		$(".spaceWeight").html(planetWeight);
 		$(".description").html(gravityTypes.jupiter.bio);
 	}
-	else if (planetName == "Jupiter's Moon Europa") {
+	else if (planetName === "Jupiter's Moon Europa") {
 		planetWeight = gravityTypes.europa.gravity * catWeight / 9.8;
 		$(".spaceWeight").html(planetWeight);
 		$(".description").html(gravityTypes.europa.bio);
 	}
-	else if (planetName == "Saturn") {
+	else if (planetName === "Saturn") {
 		planetWeight = gravityTypes.saturn.gravity * catWeight / 9.8;
 		$(".spaceWeight").html(planetWeight);
 		$(".description").html(gravityTypes.saturn.bio);
 	}
-	else if (planetName == "Saturn's Moon Titan") {
+	else if (planetName === "Saturn's Moon Titan") {
 		planetWeight = gravityTypes.titan.gravity * catWeight / 9.8;
 		$(".spaceWeight").html(planetWeight);
 		$(".description").html(gravityTypes.titan.bio);
 	}
-	else if (planetName == "Uranus") {
+	else if (planetName === "Uranus") {
 		planetWeight = gravityTypes.uranus.gravity * catWeight / 9.8;
 		$(".spaceWeight").html(planetWeight);
 		$(".description").html(gravityTypes.uranus.bio);
 	}
-	else if (planetName == "Neptune") {
+	else if (planetName === "Neptune") {
 		planetWeight = gravityTypes.neptune.gravity * catWeight / 9.8;
 		$(".spaceWeight").html(planetWeight);
 		$(".description").html(gravityTypes.neptune.bio);
 	}
-	else if (planetName == "Pluto") {
+	else if (planetName === "Pluto") {
 		planetWeight = gravityTypes.pluto.gravity * catWeight / 9.8;
 		$(".spaceWeight").html(planetWeight);
 		$(".description").html(gravityTypes.pluto.bio);
 	}
+}
