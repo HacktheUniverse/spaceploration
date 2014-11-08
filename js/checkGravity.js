@@ -68,5 +68,5 @@ function checkGravity(planetIndex, catWeight) {
 	planetWeight = gravityTypes[planetIndex].gravity * catWeight / 9.8;
 	var roundedWeight = planetWeight.toFixed(2);
 	$(".spaceWeight").html(roundedWeight);
-	$(".description").html(gravityTypes[planetIndex].bio);
+	$(".description p").html(gravityTypes[planetIndex].bio);
 }
