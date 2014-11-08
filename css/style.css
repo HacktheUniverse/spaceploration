@@ -3,11 +3,26 @@
   border-radius: 50%;
 }
 
+h1 {
+  text-align: center;
+}
+
 p.small {
   font-size: 0.8em;
 }
 
 .solarsystem {
   background-color: black;
+  color: white;
 }
 
+.solarsystem a {
+  color: blue;
+  text-decoration: none;
+  float: right;
+}
+
+.solarsystem img {
+  margin: auto;
+  display: block;
+}
