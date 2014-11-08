@@ -4,11 +4,66 @@
 }
 
 .star {
-  background-color: red;
-  background-image: url("../images/brown_dwarf.png");
+  /*background-color: red;*/
+  background-image: url("../images/brownDwarf.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
   border-radius: 50%;
   margin: 10px auto;
 }
+
+.brownDwarf {
+  /*background-color: red;*/
+  background-image: url("../images/brownDwarf.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+
+.lowMassStar {
+  /*background-color: red;*/
+  background-image: url("../images/lowMassStar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+  width:200px;
+}
+
+.iMMassStar {
+  /*background-color: red;*/
+  background-image: url("../images/iMMassStar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+  width:400px;
+}
+
+.highMassStar {
+  /*background-color: red;*/
+  background-image: url("../images/highMassStar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+  width:600px;
+
+}
+
+.vHighMassStar {
+  /*background-color: red;*/
+  background-image: url("../images/vHighMassStar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+  width:800px;
+}
+
+
 
 .topMargin {
   margin-top: 200px;
@@ -32,6 +87,7 @@ h1 {
 
 h2 {
   text-align: center;
+  font-family: nasalization;
 }
 
 p.small {
