@@ -23,6 +23,37 @@ h1, h2 {
   text-align: center;
 }
 
+.header p, .guess, .planetWeight {
+  width: 75%;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 1.25em;
+}
+
+.planetWeight {
+  height: 1000px;
+}
+
+.guess input {
+  margin: 10px;
+}
+
+.planetWeight img {
+  height: 250px;
+  margin-left: 50px;
+}
+
+.planet {
+  border-radius: 50%;
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: blue;
+  margin: auto;
+  position: relative;
+  bottom: 85px;
+  z-index: -1;
+}
+
 p.small {
   font-size: 0.8em;
 }
