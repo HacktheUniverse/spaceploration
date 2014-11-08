@@ -65,3 +65,23 @@ a {
   font-size: 2em;
   text-decoration: underline;
 }
+
+#space-cat {
+  position:absolute;
+  width:300px;
+  z-index:10;
+}
+
+@-webkit-keyframes bouncy-icons {
+  0, 100% {
+    -webkit-transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(0, 10px);
+  }
+}
+
+.bounce {
+  -webkit-animation: bouncy-icons 2s ease-in-out infinite ;
+  /* Safari 4+ */
+}
