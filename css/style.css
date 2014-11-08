@@ -18,6 +18,10 @@
   display: none;
 }
 
+.homeImage:hover {
+  cursor: pointer;
+}
+
 body {
   background-color: black;
   color: white;
