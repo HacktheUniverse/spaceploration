@@ -215,7 +215,7 @@ a {
   cursor: pointer;
 }
 
-.description {
+.spaceBounce .description {
   background-color: yellow;
   color: black;
   padding: 20px;
@@ -229,7 +229,7 @@ a {
   z-index: -2;
 }
 
-.description p {
+.spaceBounce .description p {
   margin: 80px 20px;
 }
 
