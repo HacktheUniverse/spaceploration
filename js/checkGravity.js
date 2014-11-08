@@ -58,7 +58,7 @@ var gravityTypes = [
 	{
 		name: "Pluto",
 		gravity: 0.658,
-		bio: "Pluto is 3 to 5 billion miles away from Earth and is about half the size of Mercury, the smallest planet in our solar system. It used to be considered a planet, but is now considered a Dwarf Planet. It has a surface gravity of only 0.66 m/s^2. That’s almost 1/15th of Earth’s 9.8 m/s^2 gravity! Pluto also orbits the sun on a different plane than the eight true planets. Do you think Pluto should be considered a planet?"
+		bio: "Pluto is 3 to 5 billion miles away from Earth and is about half the size of Mercury, the smallest planet in our solar system. It used to be considered a planet, but is now considered a Dwarf Planet. It has a surface gravity of only 0.66 m/s^2. That's almost 1/15th of Earth's 9.8 m/s^2 gravity! Pluto also orbits the sun on a different plane than the eight true planets. Do you think Pluto should be considered a planet?"
 	}
 ]
 
