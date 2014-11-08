@@ -10,8 +10,9 @@ $(document).ready(function(){
   });
 
   $('.newPlanet').on('click', function() {
-    console.log('click');
-    if (planetNum < gravityTypes.length) {
+    console.log('length: ' + gravityTypes.length);
+    console.log('planetNum' + planetNum);
+    if (planetNum < gravityTypes.length-1) {
       planetNum++;
     } else {
       planetNum = 0;
