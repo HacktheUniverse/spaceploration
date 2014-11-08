@@ -9,4 +9,14 @@ $(document).ready(function(){
     }
   });
 
+  $('.newPlanet').on('click', function() {
+    console.log('click');
+    if (planetNum < gravityTypes.length) {
+      planetNum++;
+    } else {
+      planetNum = 0;
+    }
+    $('.thisPlanet').html(gravityTypes[planetNum].name);
+  })
+
 });

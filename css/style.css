@@ -137,5 +137,9 @@ a {
   padding: 50px;
   font-size: 1.4em;
   color: black;
-  z-index: -1;
+}
+
+.newPlanet:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
