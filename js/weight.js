@@ -17,6 +17,7 @@ $(document).ready(function(){
       planetNum = 0;
     }
     $('.thisPlanet').html(gravityTypes[planetNum].name);
+    checkGravity(planetNum, $('input').val());
   })
 
 });

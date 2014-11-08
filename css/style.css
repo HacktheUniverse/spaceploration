@@ -72,9 +72,9 @@ img.spaceCat {
 }
 
 .scale img {
-  width: 50%;
+  width: 50px;
   height: auto;
-  margin: 15px 0 0;
+  margin: 15px auto 0;
 }
 
 .spaceWeight {
@@ -142,4 +142,22 @@ a {
 .newPlanet:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.description {
+  background-color: yellow;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  right: 5px;
+  top: 250px;
+  z-index: -2;
+}
+
+.description p {
+  margin: 80px 20px;
 }
