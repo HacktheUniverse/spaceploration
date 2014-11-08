@@ -2,3 +2,12 @@
   background-color: red;
   border-radius: 50%;
 }
+
+p.small {
+  font-size: 0.8em;
+}
+
+.solarsystem {
+  background-color: black;
+}
+

@@ -27,6 +27,24 @@ $(document).ready(function(){
   $(document).on('keyup', function(e) {
     if (e.which === 32 && star.growable === true && star.gameOver === false) {
       star.gameOver = true;
+      checkStarType(star.diameter);
     }
   });
 });
+
+var starTypes = {
+  brownDwarf: {
+    name: "Brown Dwarf",
+    size: 49347239,
+    bio: "string info",
+    fate: "string info"
+  }
+}
+
+function checkStarType(diameter) {
+  if (diameter<500) {
+    $(".name").html(starTypes.brownDwarf.name);
+    $(".description").html(starTypes.brownDwarf.bio);
+  }
+
+}
