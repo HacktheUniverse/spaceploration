@@ -51,14 +51,14 @@ var gravityTypes = [
 		bio: "Uranus and Neptune are very close in size, Uranus producing a gravitational pull of 8.7 m/s^2. The poles of Uranus face directly towards and away from the Sun, leading scientists to believe that it was hit by a larger planet and knocked off-center by 90 degrees. Uranus' atmosphere is mainly methane, which gives the planet a blue tint. How do we know what elements are in Uranus' atmosphere?"
 	},
 	{
-		name: "Neptune"
+		name: "Neptune",
 		gravity: 11.15,
 		bio: "Neptune is the farthest planet away from the Sun. It has a surface gravity of 11.15 m/s^2. One year on Neptune takes the same amount of time as almost 165 years on Earth. How old are you in Neptune years?"
 	},
 	{
 		name: "Pluto",
 		gravity: 0.658,
-		bio: "Pluto is 3 to 5 billion miles away from Earth and is about half the size of Mercury, the smallest planet in our solar system. It used to be considered a planet, but is now considered a Dwarf Planet. It has a surface gravity of only 0.66 m/s^2. That’s almost 1/15th of Earth’s 9.8 m/s^2 gravity! Pluto also orbits the sun on a different plane than the eight true planets. Do you think Pluto should be considered a planet?"
+		bio: "Pluto is 3 to 5 billion miles away from Earth and is about half the size of Mercury, the smallest planet in our solar system. It used to be considered a planet, but is now considered a Dwarf Planet. It has a surface gravity of only 0.66 m/s^2. That's almost 1/15th of Earth's 9.8 m/s^2 gravity! Pluto also orbits the sun on a different plane than the eight true planets. Do you think Pluto should be considered a planet?"
 	}
 ]
 
