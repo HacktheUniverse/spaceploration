@@ -1,9 +1,69 @@
+@font-face {
+    font-family: nasalization;
+    src: url(nasalization.ttf);
+}
+
 .star {
-  background-color: red;
-  background-image: url("../images/brown_dwarf.png");
+  /*background-color: red;*/
+  background-image: url("../images/brownDwarf.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
   border-radius: 50%;
   margin: 10px auto;
 }
+
+.brownDwarf {
+  /*background-color: red;*/
+  background-image: url("../images/brownDwarf.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+
+.lowMassStar {
+  /*background-color: red;*/
+  background-image: url("../images/lowMassStar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+  width:200px;
+}
+
+.iMMassStar {
+  /*background-color: red;*/
+  background-image: url("../images/iMMassStar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+  width:400px;
+}
+
+.highMassStar {
+  /*background-color: red;*/
+  background-image: url("../images/highMassStar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+  width:600px;
+
+}
+
+.vHighMassStar {
+  /*background-color: red;*/
+  background-image: url("../images/vHighMassStar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+  width:800px;
+}
+
+
 
 .topMargin {
   margin-top: 200px;
@@ -21,8 +81,15 @@ body {
   max-height: 1000px;
 }
 
-h1, h2 {
+h1 {
   text-align: center;
+  font-family: nasalization;
+}
+
+
+h2 {
+  text-align: center;
+  font-family: nasalization;
 }
 
 .header p, .guess, .planetWeight {
@@ -160,4 +227,24 @@ a {
 
 .description p {
   margin: 80px 20px;
+}
+
+#space-cat {
+  position:absolute;
+  width:300px;
+  z-index:10;
+}
+
+@-webkit-keyframes bouncy-icons {
+  0, 100% {
+    -webkit-transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(0, 10px);
+  }
+}
+
+.bounce {
+  -webkit-animation: bouncy-icons 2s ease-in-out infinite ;
+  /* Safari 4+ */
 }
