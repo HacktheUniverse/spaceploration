@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
   var planetNum = 0;
+  $('.planet').css("background-image", "url(./images/texture_4.png)");
 
   $('input').on('keyup', function() {
     var earthWeight = $(this).val();
@@ -10,13 +11,12 @@ $(document).ready(function(){
   });
 
   $('.newPlanet').on('click', function() {
-    console.log('length: ' + gravityTypes.length);
-    console.log('planetNum' + planetNum);
     if (planetNum < gravityTypes.length-1) {
       planetNum++;
     } else {
       planetNum = 0;
     }
+    $('.planet').css("background-image", "url(./images/" + gravityTypes[planetNum].texture + ")");
     $('.thisPlanet').html(gravityTypes[planetNum].name);
     checkGravity(planetNum, $('input').val());
   })
