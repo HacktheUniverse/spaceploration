@@ -13,7 +13,6 @@ $(document).ready(function() {
 
   $(document).on("keydown", function(e) {
     if (e.which === 32 && star.gameOver === false) {
-      console.log(star.diameter);
       $(".header").removeClass("topMargin");
       checkStarType(star.diameter);
       star.drawMass();
@@ -29,9 +28,12 @@ $(document).ready(function() {
   });
 
   $("#playAgain").on("click", function() {
-    star.diameter = 50;
+    var classes = $('.star').attr("class");
+    var currentClass = classes.split(" ")[1];
+    star.diameter = 20;
     star.drawMass();
     star.gameOver = false;
+    $( ".star" ).addClass( "brownDwarf" ).removeClass(currentClass);
     $(".info").addClass("hidden");
   });
 });

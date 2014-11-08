@@ -23,7 +23,7 @@ var starTypes = {
 
 	highMassStar: {
 		name: "High Mass Star",
-		bio: "Woah! That's a big star! I'd say it'll live for 10 million years. It is 8 to 20 times the mass of the Sun, and you know that the more massive a star, the shorter its lifespan will be. It's so big that once it’s used up its primary energy source, it will expand into a Super Giant. The Super Giant will likely then explode in a Supernova and collapse into a Neutron star. Neutron stars are very small (not much bigger than Chicago!) and extremely dense. Cassiopeia A is one example of a high mass star."
+		bio: "Woah! That's a big star! I'd say it'll live for 10 million years. It is 8 to 20 times the mass of the Sun, and you know that the more massive a star, the shorter its lifespan will be. It's so big that once it has used up its primary energy source, it will expand into a Super Giant. The Super Giant will likely then explode in a Supernova and collapse into a Neutron star. Neutron stars are very small (not much bigger than Chicago!) and extremely dense. Cassiopeia A is one example of a high mass star."
 	},
 
 	vHighMassStar: {
@@ -38,25 +38,19 @@ function checkStarType(diameter) {
     $(".name").html(starTypes.brownDwarf.name);
 		$(".description").html(starTypes.brownDwarf.bio);
 		$( ".star" ).addClass( "brownDwarf" );
-    console.log("Brown Dwarf");
-	}
-	else if (diameter > 30 && diameter <=100) {
+	} else if (diameter > 30 && diameter <=100) {
 		$(".name").html(starTypes.lowMassStar.name);
 		$(".description").html(starTypes.lowMassStar.bio);
 		$( ".star" ).addClass( "lowMassStar" ).removeClass( "brownDwarf" );
-    console.log("Low Mass Star");
-	}
-	else if (diameter > 100 && diameter <=200) {
+	} else if (diameter > 100 && diameter <=200) {
 		$(".name").html(starTypes.iMMassStar.name);
 		$(".description").html(starTypes.iMMassStar.bio);
 		$( ".star" ).addClass( "iMMassStar" ).removeClass( "lowMassStar" );
-	}
-	else if (diameter > 200 && diameter <=350) {
+	} else if (diameter > 200 && diameter <=350) {
 		$(".name").html(starTypes.highMassStar.name);
 		$(".description").html(starTypes.highMassStar.bio);
 		$( ".star" ).addClass( "highMassStar" ).removeClass( "iMMassStar" );
-	}
-	else {
+	} else {
 		$(".name").html(starTypes.vHighMassStar.name);
 		$(".description").html(starTypes.vHighMassStar.bio);
 		$( ".star" ).addClass( "vHighMassStar" ).removeClass( "highMassStar" );
