@@ -51,7 +51,7 @@ var gravityTypes = [
 		bio: "Uranus and Neptune are very close in size, Uranus producing a gravitational pull of 8.7 m/s^2. The poles of Uranus face directly towards and away from the Sun, leading scientists to believe that it was hit by a larger planet and knocked off-center by 90 degrees. Uranus' atmosphere is mainly methane, which gives the planet a blue tint. How do we know what elements are in Uranus' atmosphere?"
 	},
 	{
-		name: "Neptune"
+		name: "Neptune",
 		gravity: 11.15,
 		bio: "Neptune is the farthest planet away from the Sun. It has a surface gravity of 11.15 m/s^2. One year on Neptune takes the same amount of time as almost 165 years on Earth. How old are you in Neptune years?"
 	},
@@ -68,5 +68,5 @@ function checkGravity(planetIndex, catWeight) {
 	planetWeight = gravityTypes[planetIndex].gravity * catWeight / 9.8;
 	var roundedWeight = planetWeight.toFixed(2);
 	$(".spaceWeight").html(roundedWeight);
-	$(".description").html(gravityTypes[planetIndex].bio);
+	$(".description p").html(gravityTypes[planetIndex].bio);
 }
