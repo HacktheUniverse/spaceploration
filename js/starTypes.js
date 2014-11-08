@@ -7,7 +7,7 @@
 var starTypes = {
 	brownDwarf: {
 		name: "Brown Dwarf",
-		bio: "Congratulations! You made a brown dwarf. You didn't accumulate enough mass to create a star, so instead your brown dwarf will cool and fade over time. It weighs between about 7 and 8% of the Sun’s mass. Gliese 229b was one of the first brown dwarfs ever discovered!"
+		bio: "Congratulations! You made a brown dwarf. You didn't accumulate enough mass to create a star, so instead your brown dwarf will cool and fade over time. It weighs between about 7 and 8% of the Sun's mass. Gliese 229b was one of the first brown dwarfs ever discovered!"
 
 	},
 
