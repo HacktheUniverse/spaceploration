@@ -3,17 +3,17 @@
   border-radius: 50%;
 }
 
-h1 {
+body {
+  background-color: black;
+  color: white;
+}
+
+h1, h2 {
   text-align: center;
 }
 
 p.small {
   font-size: 0.8em;
-}
-
-.solarsystem {
-  background-color: black;
-  color: white;
 }
 
 .solarsystem a {
