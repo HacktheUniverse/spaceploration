@@ -215,6 +215,11 @@ a {
   cursor: pointer;
 }
 
+.spaceBounce {
+  max-height: 1000px;
+  overflow: hidden;
+}
+
 .spaceBounce .description {
   background-color: yellow;
   color: black;
