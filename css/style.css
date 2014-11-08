@@ -4,11 +4,66 @@
 }
 
 .star {
-  background-color: red;
-  background-image: url("../images/brown_dwarf.png");
+  /*background-color: red;*/
+  background-image: url("../images/brownDwarf.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
   border-radius: 50%;
   margin: 10px auto;
 }
+
+.brownDwarf {
+  /*background-color: red;*/
+  background-image: url("../images/brownDwarf.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+
+.lowMassStar {
+  /*background-color: red;*/
+  background-image: url("../images/lowMassStar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+  width:200px;
+}
+
+.iMMassStar {
+  /*background-color: red;*/
+  background-image: url("../images/iMMassStar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+  width:400px;
+}
+
+.highMassStar {
+  /*background-color: red;*/
+  background-image: url("../images/highMassStar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+  width:600px;
+
+}
+
+.vHighMassStar {
+  /*background-color: red;*/
+  background-image: url("../images/vHighMassStar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin: 10px auto;
+  width:800px;
+}
+
+
 
 .topMargin {
   margin-top: 200px;
@@ -26,6 +81,8 @@ body {
   background-color: black;
   color: white;
   background-image: url("../images/stars.jpg");
+  height: auto;
+  max-height: 1000px;
 }
 
 h1 {
@@ -36,6 +93,65 @@ h1 {
 
 h2 {
   text-align: center;
+  font-family: nasalization;
+}
+
+.header p, .guess, .planetWeight {
+  width: 75%;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 1.25em;
+}
+
+.planetWeight {
+  height: 1000px;
+}
+
+.guess input {
+  margin: 10px;
+  color: black;
+}
+
+img.spaceCat {
+  height: 250px;
+  margin-left: 50px;
+}
+
+.planet {
+  border-radius: 50%;
+  width: 110%;
+  padding-bottom:  100%;
+  background-color: blue;
+  margin: auto;
+  position: relative;
+  bottom: 85px;
+  right: 5%;
+  z-index: -1;
+}
+
+.planet h3 {
+  padding-top: 50px;
+}
+
+.scale {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: auto;
+  border-radius: 5px;
+  padding-top: 1px;
+}
+
+.scale img {
+  width: 50px;
+  height: auto;
+  margin: 15px auto 0;
+}
+
+.spaceWeight {
+  background-color: white;
+  color: black;
+  margin: 10px;
 }
 
 p.small {
@@ -79,6 +195,42 @@ a {
 .info .name {
   font-size: 2em;
   text-decoration: underline;
+}
+
+.newPlanet {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50px;
+  background-color: aqua;
+  border-radius: 50%;
+  text-align: center;
+  padding: 50px;
+  font-size: 1.4em;
+  color: black;
+}
+
+.newPlanet:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.description {
+  background-color: yellow;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  right: 5px;
+  top: 250px;
+  z-index: -2;
+}
+
+.description p {
+  margin: 80px 20px;
 }
 
 #space-cat {
