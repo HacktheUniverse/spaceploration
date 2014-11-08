@@ -13,7 +13,7 @@ $(document).ready(function(){
 
   $(document).on("keydown", function(e) {
     if (e.which === 32 && star.gameOver === false) {
-      $(".header").removeClass("topMargin");
+      $(".header").animate({'margin-top':'0px'});
       star.drawMass();
       star.diameter += 2;
     }
@@ -32,5 +32,6 @@ $(document).ready(function(){
     star.drawMass();
     star.gameOver = false;
     $(".info").addClass("hidden");
+    $(".header").animate({'margin-top':'200px'});
   });
 });
