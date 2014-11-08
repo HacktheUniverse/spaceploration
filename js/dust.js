@@ -33,4 +33,5 @@ $(document).ready(function(){
     star.gameOver = false;
     $(".info").addClass("hidden");
   });
+
 });
