@@ -31,20 +31,3 @@ $(document).ready(function(){
     }
   });
 });
-
-var starTypes = {
-  brownDwarf: {
-    name: "Brown Dwarf",
-    size: 49347239,
-    bio: "string info",
-    fate: "string info"
-  }
-}
-
-function checkStarType(diameter) {
-  if (diameter<500) {
-    $(".name").html(starTypes.brownDwarf.name);
-    $(".description").html(starTypes.brownDwarf.bio);
-  }
-
-}
