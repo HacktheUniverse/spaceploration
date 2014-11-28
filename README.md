@@ -3,6 +3,8 @@ spaceploration
 
 Url: http://hacktheuniverse.github.io/spaceploration
 
+Demo from Hack the Universe presentations: http://youtu.be/Bq8HqsMqrMM
+
 Category: Education
 
 spaceploration.com is an interactive educational website for teachers and students made to incorporate aspects of astronomy into scinece classrooms with the aid of fun games!
